@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\Code\\MiniProjects\\dairyApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA71DF2-2ED1-4DC7-B7F3-9FC878FD006B}|MyDairyApp\\MyDairyApp.csproj|c:\\users\\2392848\\onedrive - cognizant\\documents\\1.cohort\\code\\miniprojects\\dairyapp\\mydairyapp\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FDA71DF2-2ED1-4DC7-B7F3-9FC878FD006B}|MyDairyApp\\MyDairyApp.csproj|solutionrelative:mydairyapp\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA71DF2-2ED1-4DC7-B7F3-9FC878FD006B}|MyDairyApp\\MyDairyApp.csproj|c:\\users\\2392848\\onedrive - cognizant\\documents\\1.cohort\\code\\miniprojects\\dairyapp\\mydairyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA71DF2-2ED1-4DC7-B7F3-9FC878FD006B}|MyDairyApp\\MyDairyApp.csproj|solutionrelative:mydairyapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextFile.txt",
+              "DocumentMoniker": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\Code\\MiniProjects\\dairyApp\\MyDairyApp\\TextFile.txt",
+              "RelativeDocumentMoniker": "MyDairyApp\\TextFile.txt",
+              "ToolTip": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\Code\\MiniProjects\\dairyApp\\MyDairyApp\\TextFile.txt",
+              "RelativeToolTip": "MyDairyApp\\TextFile.txt",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-18T07:01:39.851Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\Code\\MiniProjects\\dairyApp\\MyDairyApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyDairyApp\\Program.cs",
+              "ToolTip": "C:\\Users\\2392848\\OneDrive - Cognizant\\Documents\\1.Cohort\\Code\\MiniProjects\\dairyApp\\MyDairyApp\\Program.cs",
+              "RelativeToolTip": "MyDairyApp\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T07:01:34.853Z",
+              "EditorCaption": ""
             }
           ]
         }
