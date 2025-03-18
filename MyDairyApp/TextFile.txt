@@ -1,0 +1,14 @@
+﻿Steps for connecting Database and MVC project
+
+1. Install packages
+2. Setup AppDbContext
+3. Add connection string to appsettings.json 
+"ConnectionStrings": {
+    "DefaultConnection": "Data Source=localhost;Initial Catalog=DairyApp;Integrated Security=True;TrustServerCertificate=true"
+  }
+3. Add services in the program.cs file.
+4. In options add connection string
+builder.Services.AddDbContext<AppDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")))
+
+    this change
