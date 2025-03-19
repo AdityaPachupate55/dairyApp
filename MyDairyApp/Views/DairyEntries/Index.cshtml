@@ -19,15 +19,18 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(var entry in Model)
+            @foreach (var entry in Model)
             {
                 <tr>
                     <td>@entry.Title</td>
                     <td>@entry.Content</td>
-                    <td>@entry.Created</td>
-                    <td>Edit and delete!</td>
+                    <td>@entry.Created.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" asp-controller="DairyEntries" asp-route-id="@entry.Id" asp-action="Edit">Edit</a>
+                        <a class="btn btn-danger btn-sm" asp-controller="DairyEntries" asp-route-id="@entry.Id" asp-action="Delete">Delete</a>
+                    </td>
                 </tr>
             }
         </tbody>
-</table>
+    </table>
 </div>
