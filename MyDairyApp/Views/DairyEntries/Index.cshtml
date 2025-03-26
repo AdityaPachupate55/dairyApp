@@ -27,7 +27,9 @@
                     <td>@entry.Created.ToString("yyyy-MM-dd HH:mm:ss")</td>
                     <td>
                         <a class="btn btn-primary btn-sm" asp-controller="DairyEntries" asp-route-id="@entry.Id" asp-action="Edit">Edit</a>
-                        <a class="btn btn-danger btn-sm" asp-controller="DairyEntries" asp-route-id="@entry.Id" asp-action="Delete">Delete</a>
+                        <form asp-controller="DairyEntries" asp-action="Delete" asp-route-id="@entry.Id" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
                     </td>
                 </tr>
             }

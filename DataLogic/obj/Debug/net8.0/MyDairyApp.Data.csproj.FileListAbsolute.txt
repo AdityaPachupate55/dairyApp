@@ -1,0 +1,15 @@
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\bin\Debug\net8.0\MyDairyApp.Data.deps.json
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\bin\Debug\net8.0\MyDairyApp.Data.runtimeconfig.json
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\bin\Debug\net8.0\MyDairyApp.Data.dll
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\bin\Debug\net8.0\MyDairyApp.Data.pdb
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.csproj.AssemblyReference.cache
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.AssemblyInfoInputs.cache
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.AssemblyInfo.cs
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.sourcelink.json
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.dll
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\refint\MyDairyApp.Data.dll
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.pdb
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\MyDairyApp.Data.genruntimeconfig.cache
+C:\Users\2392848\OneDrive - Cognizant\Documents\1.Cohort\Code\MiniProjects\dairyApp\DataLogic\obj\Debug\net8.0\ref\MyDairyApp.Data.dll

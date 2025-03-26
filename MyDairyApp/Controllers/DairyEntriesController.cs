@@ -40,41 +40,38 @@ namespace MyDairyApp.Controllers
         public IActionResult Edit(int? id)
         {
             if (id == null || id == 0) return NotFound();
-            DairyEntry dairyEntry = _context.DairyEntries.Find(id);
+            DairyEntry ?dairyEntry = _context.DairyEntries.Find(id);
             if (dairyEntry == null) return NotFound();
             return View(dairyEntry);
         }
 
-        [HttpPost]
-        public IActionResult Edit(DairyEntry obj)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.DairyEntries.Update(obj);
-                _context.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(obj);
-        }
+        //[HttpGet]
+        //public IActionResult Edit(int? id)
+        //{
+        //    if (id == null || id == 0) return NotFound();
+        //    DairyEntry? dairyEntry = _context.DairyEntries.Find(id);
+        //    if (dairyEntry == null) return NotFound();
+        //    return View(dairyEntry);
+        //}
 
-        [HttpGet]
+        //[HttpGet]
+        //public IActionResult Delete(int? id)
+        //{
+        //    if (id == null || id == 0) return NotFound();
+
+        //    DairyEntry dairyEntry = _context.DairyEntries.Find(id);
+
+        //    if (dairyEntry == null) return NotFound();
+        //    return View(dairyEntry);
+        //}
+
+
+        [HttpPost]
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0) return NotFound();
 
-            DairyEntry dairyEntry = _context.DairyEntries.Find(id);
-
-            if (dairyEntry == null) return NotFound();
-            return View(dairyEntry);
-        }
-        
-
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int? id)
-        {
-            if (id == null || id == 0) return NotFound();
-
-            DairyEntry dairyEntry = _context.DairyEntries.Find(id);
+            DairyEntry? dairyEntry = _context.DairyEntries.Find(id);
 
             if (dairyEntry == null) return NotFound();
 
@@ -82,5 +79,6 @@ namespace MyDairyApp.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
+
     }
 }
